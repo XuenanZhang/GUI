@@ -19,7 +19,7 @@ package console
 		 */
 		public static function registerCommand ( name : String, callback : Function, docs : String = null ) : void
 		{
-			if ( !name )
+			if ( !name ) 
 			{
 				Logger.error( Console, "registerCommand", "Command has no name!" );
 				return;
